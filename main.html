@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">Logout</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="user-area">
+        <h2 id="user-name">User: </h2>
+    </div>
+    <div class="subscription-area">
+        <h3>Subscriptions:</h3>
+        <ul id="subscription-list">
+        </ul>
+    </div>
+    <div class="query-area">
+        <h3>Query Music:</h3>
+        <form id="query-form">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="year" placeholder="Year">
+            <input type="text" id="artist" placeholder="Artist">
+            <button  id="query-btn" class="query-btn">Query</button>
+        </form>
+        <div class="query-results" id="queryResults"></div>
+
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
